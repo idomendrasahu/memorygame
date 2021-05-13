@@ -1,0 +1,43 @@
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(2, 53, 33);
+}
+  
+#nav li {
+    float: left;
+
+}
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:solid;
+}
+#nav li a:hover {
+  background-color: rgb(3, 168, 113);
+}
+.grid-container {
+  display: grid;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+#levels li a{
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration:solid;
+
+  border-radius: 4mm;
+}
+#levels li a:hover {
+  background-color: rgb(11, 203, 236);
+}

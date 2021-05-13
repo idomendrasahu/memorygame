@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src='mg1.js' charset="UTF-8" type="text/javascript"></script>  
+</head>
+<body>
+    <ul id="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">Memory Game</a></li>
+        <li><a href="">Other</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+    <h1 align="center" style="color: saddlebrown; background-color: aquamarine;">MEMORY GAME</h1>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-2" id="difficulty" style="background-color: aqua;"><h4 style="text-align: center;">DIFFICULTY</h4>
+            <hr color="blue">
+            <div >
+                <ul id="levels">
+                    <!-- <li><input name="opt" type="radio" size="25px" value="6">3*2 Grids</li> -->
+                    <!-- <li><a href="index.html"><input name="opt" type="radio" size="25px" value="12">4*3 Grids</li> </a>
+                    <li><a href="index1.html"><input name="opt" type="radio" size="25px" value="20">5*4 Grids</li></a>
+                    <li><a href="index2.html"><input name="opt" type="radio" size="25px" value="30">6*5 Grids</li></a> -->
+                    <!-- <li><a href="index"><input name="opt" type="radio" size="25px" value="42">7*6 Grids</li> -->
+                    <li><a href="index.html"  >LEVEL 1</li> </a>
+                    <li><a href="index1.html" style="background-color: rgb(11, 203, 236);" >LEVEL 2</li></a>
+                    <li><a href="index2.html" >LEVEL 3</li></a>
+                </ul>
+                <!-- <button type="button" onclick="displayRadioValue()">Submit</button>
+                <br><hr>
+                <div id="level">fgfdghdfg</div> -->
+
+            </div>
+        </div>
+        <div class="col-md-8" id="panel"></div>
+        <div class="col-md-2 " style="box-shadow: 10px; border-left: 10px; border-left-color: yellowgreen ;" id="score">
+            <table id="table" style="width: 100%;">
+                <tr class="active"><th><h4 align="center">SCORE BOARD</h4><hr style="color: rgb(238, 13, 5); size: 10px;"></th></tr>
+                <tr><td>Total Flips::</td><td id="flips">0</td></tr>
+                <tr><td>Total Score::</td><td id="result">0</td></tr>
+
+            </table></div>
+    </div></div>
+
+</body>
+
+</html>
